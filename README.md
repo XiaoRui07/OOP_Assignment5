@@ -1,3 +1,4 @@
+```mermaid
 ---
 config:
   layout: elk
@@ -90,3 +91,4 @@ classDiagram
     Player *-- Weapon:gun
     Player ..> Ammomanager:uses
     GameObjectFactory ..> Weapon:create
+```
